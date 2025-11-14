@@ -40,7 +40,7 @@ export default function Page() {
       </div>
       <div className="col-start-3 flex flex-col gap-7 items-center p-4">
         <h2 className="text-xl font-bold">국가별 세계관</h2>
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4">
           <div className="flex-1 flex flex-col gap-2">
             <img src='/time-icon.png'/>
             <img src='/time-card.png'/>
@@ -50,7 +50,7 @@ export default function Page() {
             <p>On Time의 시민들은 정해진 시간을 가지고 태어나며, 시간을 화폐로 사용합니다. 대부분의 시민은 시간을 들여 일하는 대신 카지노에서 도박으로 시간을 증식합니다.</p>
           </div>
         </div>
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 border-t pt-2">
           <div className="flex-1 flex flex-col gap-2">
             <img src='/sacrifice-icon.png'/>
             <img src='/sacrifice-card.png'/>
@@ -60,7 +60,7 @@ export default function Page() {
             <p>Pizza Shoot에는 공동체를 위해 자신을 피자의 재료로 바치는 의식이 있습니다. 시민들은 이를 Pizza Shoot 국민으로서의 자부심이자 인생의 목표로 여깁니다.</p>
           </div>
         </div>
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 border-t pt-2">
           <div className="flex-1 flex flex-col gap-2">
             <img src='/entropy-icon.png'/>
             <img src='/entropy-card.png'/>
