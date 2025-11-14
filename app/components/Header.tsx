@@ -10,9 +10,10 @@ export default function Header() {
 
   let projName;
   if (!path) projName = ''
-  else if (num <= 10) projName = 'cpnia'
-  else if (num <= 20) projName = 'through-x'
-  else if (num <= 30) projName = 'solmi-wiki'
+  else if (num <= 6) projName = 'cpnia'
+  else if (num <= 10) projName = 'through-x'
+  else if (num <= 20) projName = 'solmi-wiki'
+  else projName = ''
 
   return (
     <>
@@ -24,9 +25,9 @@ export default function Header() {
         </div>
       </header>
       
-      <div className="fixed bottom-0 left-0 w-screen flex items-center p-4 pointer-events-none">
+      <div className="fixed bottom-0 left-0 w-screen flex items-center p-4 pointer-events-none ">
         <PdfButton />
-        <div className="border px-1 py-1 rounded-full ml-auto w-auto h-auto flex gap-1 pointer-events-auto no-print">
+        <div className="border px-1 py-1 rounded-full ml-auto w-auto h-auto flex gap-1 pointer-events-auto no-print bg-zinc-50">
           <button
             className="w-8 h-8 hover:bg-zinc-200 rounded-full transition-colors"
             onClick={() => {

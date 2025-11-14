@@ -4,7 +4,7 @@ export default function Page() {
       <div className="flex flex-col gap-14 pt-4">
         <h1 className="text-5xl font-bold">C.pnia</h1>
         <div>
-          <p>2025.9.1-11.6</p>
+          <p>2025.9.1—11.6</p>
           <p>팀 작업(7인)</p>
           <p>Typescript, React, Three.js, Rapier, Openai api</p>
         </div>
