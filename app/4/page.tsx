@@ -63,7 +63,7 @@ export default function Page() {
           <p className="self-start w-max-[20rem] break-keep">각 맵의 컨셉과 색에 어울리도록 디자인하였습니다.</p>
         </div>
 
-        <div className="col-start-3 flex flex-col gap-7 items-center border-r p-4">
+        <div className="col-start-3 flex flex-col gap-7 items-center p-4">
           <h2 className="text-xl font-bold">게임 포탈 오브젝트</h2>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2 w-full h-45">

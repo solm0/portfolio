@@ -23,7 +23,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="col-start-3 flex flex-col gap-7 items-center border-r p-4">
+      <div className="col-start-3 flex flex-col gap-7 items-center p-4">
         <div className="w-full h-auto flex flex-col gap-2">
           <h2 className="text-xl font-bold mb-7">알게 된 점</h2>
           <p className="w-max-[20rem] break-keep">— 게임과 같이 외부 변수가 많은 작업을 선보일 경우 테스트 기간을 넉넉히 잡아 오류를 줄여야겠다고 생각했습니다.</p>

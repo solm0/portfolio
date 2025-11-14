@@ -47,7 +47,7 @@ export default function Page() {
           <p className="break-keep">일반 npc는 chat gpt 앱을 사용해 미리 생성해둔 대사 27가지 중 하나를 내보냅니다. 맵의 곳곳에 배치되어 각각 국가에서 일어나는 대표적 사회 현상들을 보여줍니다. 예: Pizza Shoot에서 피자 위에 누워 피자가 되기를 기다리는 시민, On Time에서 도박에 빠져 있는 시민</p>
         </div>
 
-        <div className="col-start-3 flex flex-col gap-7 items-center border-r p-4">
+        <div className="col-start-3 flex flex-col gap-7 items-center p-4">
           <h2 className="text-xl font-bold">챗 NPC 대사: 실시간 생성</h2>
           <p className="break-keep">짧은 프로젝트 기간으로 각 국가의 세계관을 디테일하게 발전시킬 시간이 없어, ai 챗봇을 이용해 그 공백을 메우기로 했습니다. 팀원들마저 답할 수 없는 세계관에 대한 질문에 대신 생각하고 답해주는 역할입니다.</p>
           <div className="flex flex-col gap-2">

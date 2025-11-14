@@ -30,7 +30,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="col-start-3 flex flex-col gap-7 items-center border-r p-4">
+        <div className="col-start-3 flex flex-col gap-7 items-center p-4">
           <div className="w-full h-auto flex flex-col gap-2">
             <h2 className="text-xl font-bold">Entropy의 게임</h2>
             <img src='/entropy-game-1.png' />
