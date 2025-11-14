@@ -44,7 +44,7 @@ export default function Page() {
               )}
             </div>
           </div>
-          <p className=" break-keep">일반 npc는 chat gpt 앱을 사용해 미리 생성해둔 27가지 대사 중 브라우저에 저장되어 있는 성격에 맞는 것을 선택해 내보냅니다.</p>
+          <p className="break-keep">일반 npc는 chat gpt 앱을 사용해 미리 생성해둔 대사 27가지 중 하나를 내보냅니다. 맵의 곳곳에 배치되어 각각 국가에서 일어나는 대표적 사회 현상들을 보여줍니다. 예: Pizza Shoot에서 피자 위에 누워 피자가 되기를 기다리는 시민, On Time에서 도박에 빠져 있는 시민</p>
         </div>
 
         <div className="col-start-3 flex flex-col gap-7 items-center border-r p-4">
@@ -58,7 +58,7 @@ export default function Page() {
             </div>
            
           </div>
-          <p className="break-keep">챗 npc는 플레이어가 입력한 질문과 브라우저에 저장되어 있는 성격을 open ai api로 전송하고, 생성된 답변을 내보냅니다.</p>
+          <p className="break-keep">챗 npc는 플레이어가 입력한 질문과 브라우저에 저장되어 있는 성격을 open ai api로 전송하고, 생성된 답변을 내보냅니다. 챗npc는 일정한 간격을 유지하며 플레이어를 따라 다니며, 클릭 시 대화 창 ui가 나타납니다.</p>
           <p>챗 npc들은 전시 기간 중 소불고기 레시피를 묻는 관람객의 질문을 맥락에 적절히 맞추어 대답하는 등 거주민으로서 플레이어를 응대하는 역할을 잘 해 주었습니다.</p>
         </div>
       </div>
