@@ -46,10 +46,10 @@ export default function ImageModal({
     <>
       {asset &&
         <div
-          className="fixed overflow-hidden z-70 p-20 flex items-center justify-center"
+          className="absolute overflow-hidden h-full w-full z-20 p-20 flex items-center justify-center"
           onWheel={handleWheel}
         >
-          <p className="absolute top-10 left-1/2 -translate-x-1/2 text-neutral-500 z-80">
+          <p className="absolute top-10 left-1/2 -translate-x-1/2 text-neutral-500 z-50">
             스크롤하여 확대 / 축소
           </p>
           <div

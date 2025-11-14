@@ -22,7 +22,7 @@ export default function RootLayout({
         <div className="flex lg:hidden w-screen h-screen items-center justify-center text-center">
           화면 폭을 넓혀 주세요! <br/>또는 아래에서 pdf로 저장하기
         </div>
-        <div className="hidden lg:block w-screen h-screen p-4 pt-10 pb-18 overflow-hidden">
+        <div className="hidden lg:block w-screen h-screen px-4 pt-10 overflow-hidden">
           {children}
         </div>
       </body>

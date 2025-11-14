@@ -1,11 +1,11 @@
 export default function Page() {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full flex flex-col overflow-hidden">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold p-4">게임</h2>
         <p className="text-sm">플레이어가 각 사회의 활동에 참여하고, 그 가치관에 동화되는 과정을 게임으로 비유합니다.</p>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 overflow-auto">
         <div className="col-start-1 flex flex-col gap-7 items-center border-r p-4">
           <div className="w-full h-auto flex flex-col gap-2">
             <h2 className="text-xl font-bold">On Time의 게임</h2>

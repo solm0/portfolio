@@ -25,9 +25,9 @@ export default function Header() {
         </div>
       </header>
       
-      <div className="fixed bottom-0 left-0 w-screen flex items-center p-4 pointer-events-none ">
+      <div className="fixed bottom-0 left-0 w-screen flex items-center p-4">
         <PdfButton />
-        <div className="border px-1 py-1 rounded-full ml-auto w-auto h-auto flex gap-1 pointer-events-auto no-print bg-zinc-50">
+        <div className="border px-1 py-1 rounded-full ml-auto w-auto h-auto flex gap-1 no-print bg-zinc-50 z-80">
           <button
             className="w-8 h-8 hover:bg-zinc-200 rounded-full transition-colors"
             onClick={() => {

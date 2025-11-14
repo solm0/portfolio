@@ -3,7 +3,7 @@ import { jersey15, vt323 } from "../fonts";
 
 export default function Page() {
   return (
-    <div className="w-full h-full grid grid-cols-3">
+    <div className="w-full h-full grid grid-cols-3 overflow-auto">
       <div className="col-start-1 flex flex-col gap-7 items-center border-r p-4">
         <h2 className="text-xl font-bold">설정</h2>
         <div className="w-full h-auto flex flex-col gap-4">

@@ -2,7 +2,7 @@ import Link from "../components/Link";
 
 export default function Page() {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full overflow-hidden">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold p-4">AI 활용</h2>
         <p className="text-sm">
@@ -10,7 +10,7 @@ export default function Page() {
           에서 자세한 프롬프트와 기록을 확인하실 수 있습니다.
         </p>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 overflow-auto">
         <div className="col-start-1 flex flex-col gap-7 items-center border-r p-4">
           <h2 className="text-xl font-bold">성격 도출</h2>
           <div className="w-full h-auto flex flex-col gap-4">

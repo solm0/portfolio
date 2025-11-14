@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <div className="w-full h-full grid grid-cols-3">
+    <div className="w-full h-full grid grid-cols-3 overflow-auto">
       <div className="col-start-1 flex flex-col gap-7 items-center border-r p-4">
         <div className="w-full h-auto flex flex-col gap-2">
           <h2 className="text-xl font-bold mb-7">작업 과정</h2>

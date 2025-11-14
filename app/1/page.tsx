@@ -10,7 +10,7 @@ export default function Page() {
         </div>
         <p className="max-w-[20rem] break-keep">국민대학교 제18회 조형전 기획전에서 전시할 게임을 만들었습니다. 기획과 ui 디자인에 참여했고, 개발을 맡아 했습니다.</p>
       </div>
-      <video controls className="w-full h-full col-start-2 col-span-3 bg-black rounded-lg">
+      <video controls className="w-full h-[calc(100%-4rem)] col-start-2 col-span-3 bg-black rounded-lg">
         <source src="https://res.cloudinary.com/dvsthdqjs/video/upload/v1762332137/work_10.mp4"/>
       </video>
     </div>
