@@ -32,7 +32,7 @@ export default function Page() {
           <img src='/player.png' />
           <p className="w-max-[20rem] break-keep">플레이어의 캐릭터입니다. 모든 NPC들은 기본 뼈대와 애니메이션 4가지(idle, walk, jump, arm)를 플레이어와 공유하며 국가와 개체마다 머리 위에 얹은 아이템이나 컬러가 달라집니다.</p>
           <div className="w-full h-auto flex gap-2 flex-wrap">
-            {Array.from({length:15}, (_, i) => 
+            {Array.from({length:14}, (_, i) => 
               <Image key={i} src={`/npc_${i+1}.png`} width={100} height={100} alt="npc" className="w-[calc((100%-1.5rem)*1/4)]" />
             )}
           </div>
