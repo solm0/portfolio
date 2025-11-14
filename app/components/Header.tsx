@@ -10,9 +10,9 @@ export default function Header() {
 
   let projName;
   if (!path) projName = ''
-  else if (num <= 6) projName = 'cpnia'
-  else if (num <= 10) projName = 'through-x'
-  else if (num <= 20) projName = 'solmi-wiki'
+  else if (num <= 6) projName = 'C.PNIA'
+  else if (num <= 11) projName = 'Through-X 아카이브'
+  else if (num <= 20) projName = 'solmi.wiki'
   else projName = ''
 
   return (
