@@ -1,0 +1,11 @@
+import { Jersey_15, VT323 } from "next/font/google";
+
+export const jersey15 = Jersey_15({
+  weight: "400",
+  subsets: ['latin']
+});
+
+export const vt323 = VT323({
+  weight: "400",
+  subsets: ['latin']
+});
